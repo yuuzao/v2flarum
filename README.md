@@ -11,6 +11,12 @@ Flarum风格的v2ex！
 @import url("https://okdsl96uw.qnssl.com/v.flarum.css"); 
 
 ```
+
+或者使用stylish
+``` 
+https://userstyles.org/styles/138175/f-v2ex
+```
+
 #### License
 
 MIT
