@@ -498,10 +498,10 @@ a {
   text-decoration: none;
 }
 a:hover {
-    #e7742e
+   	color: #e7742e;
 }
 a:active {
-    #F44336;
+    color: #F44336;
 }
 iframe {
     display: none;
@@ -626,6 +626,7 @@ iframe {
     text-decoration: none;
     color: #667d99;
 }
+
 #Rightbar .box {
   text-align: left;
   border: none;
@@ -789,11 +790,6 @@ iframe {
 }
 
 
-
-#Rightbar .box:nth-child(4) .inner .sidebar_units .sep10 {
-    /* height: 10px; */
-}
-
 #Rightbar .sep20:nth-child(3) + .box .inner li {
     display: none;
 }
@@ -888,6 +884,13 @@ iframe {
     /* width: 800px; */
     margin-top: 25px;
 }
+
+
+/* 个人主页 */
+div[class="cell markdown_body"] {
+	margin-top:20px;
+}
+
 
 /*主页顶部节点导航*/
 #Main #Tabs {
@@ -1161,8 +1164,11 @@ iframe {
 #Main .box:last-child .inner {
   font-size: 0;
 }
-#Main .box:last-child .cell_ops {
-    display: none;
+
+
+.cell_ops {
+    margin: 10px 0;
+	border: none；									
 }
 
 /* 节点导航 */
@@ -1196,6 +1202,9 @@ a[href="/planes"]:hover {
 }
 #Main .box:last-child form[method="post"] {
   margin-top: 20px;
+}
+#Main .box:last-child form[method="post"] .cell {
+	font-size: 12px;
 }
 #Main .box:last-child #topic_title {
     border: 2px dashed #e7edf3;
