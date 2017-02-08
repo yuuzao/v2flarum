@@ -468,6 +468,7 @@ template {
 .sep5 {
   height: 0
 }
+
 .cell {
     padding: 0;
     font-size: 0;
@@ -498,7 +499,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-   	color: #e7742e;
+    color: #e7742e;
 }
 a:active {
     color: #F44336;
@@ -888,7 +889,7 @@ iframe {
 
 /* 个人主页 */
 div[class="cell markdown_body"] {
-	margin-top:20px;
+  margin-top:20px;
 }
 
 
@@ -999,6 +1000,15 @@ div[class="cell markdown_body"] {
    display:none;
 }
 
+/* 通知页面 */
+table[width="100%"] {
+  font-size: 12px;
+}
+
+/* 主题append */
+form[id="topic_form"] > table {
+  display: table !important;
+}
 
 #Main .box:nth-child(2) .header + .cell .topic_content {
     margin: 20px 0;
@@ -1168,7 +1178,7 @@ div[class="cell markdown_body"] {
 
 .cell_ops {
     margin: 10px 0;
-	border: none；									
+  border: none；                 
 }
 
 /* 节点导航 */
@@ -1204,7 +1214,7 @@ a[href="/planes"]:hover {
   margin-top: 20px;
 }
 #Main .box:last-child form[method="post"] .cell {
-	font-size: 12px;
+  font-size: 12px;
 }
 #Main .box:last-child #topic_title {
     border: 2px dashed #e7edf3;
